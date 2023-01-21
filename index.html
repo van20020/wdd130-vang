@@ -7,23 +7,71 @@
     <title>WDD130 Homepage</title>
 </head>
 <body>
-    <h1>Christopher Vang's WDD130 Homepage</h1>
-    <nav>
-        <a href="wwr/index.html">White Water Rafting Website</a>
-        <a href="wwr/site-plan.html">White Water Rafting Siteplan</a>
-        <a href="positioning.html">Positioning Activity</a>
-        <a href="#">Personal Website</a>
-        <a href="#">Personal Siteplan</a>
-    <img src="/aboutme/images/120365728_3377565165667735_98330809297609423_n.jpg" width="500" alt="Image of me">
-    <p> My major is CIT with a minor in Automotive and I've been attending
-        BYU Idaho for about 2 and a half years. I've been married for nearly
-        a year now, and I enjoy playing different sports like volleyball and 
-        football.</p>
-    <p> An interesting fact about me is that I'm Hmong. The "H" is silent so
-        its pronounced "Mong." Hmong people orginate from Southeast Asia,
-        but I was born in Minnesota and grew up in California. I now spend
-        my time in Idaho since my wife is from here, and I enjoy the cold and 
-        snow very much.</p>
-    </nav>
+    <header>
+        <h1>Christopher Vang's WDD130 Homepage</h1>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="https://byui-wdd.github.io/wdd130/resources/images/oars3_200.png" alt="dry oar logo">
+        </a>
+        <nav>
+         <a href="wwr/index.html">White Water Rafting Website</a>
+         <a href="contactus.html">Contact Us</a>
+         <a href="wwr/site-plan.html">White Water Rafting Siteplan</a>
+         <a href="positioning.html">Positioning Activity</a>
+         <a href="#">Personal Website</a>
+            <a href="#">Personal Siteplan</a>
+        </nav>
+    </header>
+        <img src="images/chris.jpg" style="width: 500px" alt="image of me">
+    <div id="hero">
+        <div id="hero-img">
+            <img id="hero-img" src="images/hero.png" alt="People enjoying white water rafting">
+        </div>
+        <section id="hero-msg">
+            <h1 class="home-title">Have An Adventure</h1>
+            <h4>Make Memories with Dry Oar</h4>
+            <div class="button-box">
+                <a class="book" href="contactus.html">Book Now</a>
+            </div>
+        </section>
+    </div>
+    <main class="home-grid">
+        <section class="rivers-card">
+            <img class="card-img" src="images/rivers_in_forest.jpg" alt="rivers in forest">
+            <img class="icon" src="images/river_icon.png" alt="river icon">
+            <h2>Rivers</h2>
+        </section>
+        <section class="camping-card">
+            <img class="card-img" src="images/camping.jpg" alt="tent in mountains">
+            <img class="icon" src="images/fire_icon.png" alt="fire icon">
+            <h2>Camping</h2>
+        </section>
+        <section class="rapids-card">
+            <img class="card-img" src="images/rapids.jpg" alt="rafting boat">
+            <img class="icon" src="images/oars.png" alt="oars icon">
+            <h2>Rapids</h2>
+        </section>
+        <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
+        <section class="msg">
+            <h2>More Than Just The Thrill</h2>
+            <p>Insert paragraphs explaining pictures. </p>
+            <a class='join' href="rivers.html">Join Us</a>
+        </section>
+    </main>
+    <footer>
+        <p>Dry Oar &copy; 2023 - Christopher Vang</p>
+        <p><a href="site-plan-rafting.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="fb icon">
+             </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
