@@ -1,0 +1,90 @@
+.content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 80px;
+    text-align: center;
+}
+
+.icon{
+    width: 80px;
+}
+
+#hero-img{
+    width: 100%;
+}
+
+header {
+    background-color:tan;
+}
+header h1{
+    font-size: 55px;
+    font-style:oblique;
+    text-decoration:solid;
+    color: darkolivegreen;
+}
+
+nav a{
+    text-align: center;
+}
+nav a:hover {
+    background-color:tan;
+    color: crimson;
+}
+
+#hero-msg h1 , #hero-msg h4{
+    text-align: center;
+    background-color: darkolivegreen;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main{
+    text-align: center;
+}
+
+#background{
+    height: 725px;
+    background-color:darkolivegreen;
+}
+
+body{
+    background-color:white;
+}
+
+.book{
+    background-color: white;
+}
+
+.book:hover{
+    background-color: slategray;
+    color:crimson
+}
+
+.join{
+    background-color:tan;
+}
+.join:hover{
+    background-color:slategray;
+    color:crimson
+}
+
+.msg{
+    background-color: tan;
+}
+
+footer{
+    background-color: tan;
+}
+
+footer a{
+    background-color:tan;
+}
+footer a:hover{
+    background-color: slategrey;
+    color: crimson;
+}
