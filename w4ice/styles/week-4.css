@@ -1,0 +1,44 @@
+:root{
+    --bg-color: pink;
+    --primary-font-color: #000;
+    --secondary-font-color: #fff;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+blockquote {
+    color: var(--secondary-font-color);
+    text-align: center;
+}
+
+main {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: var(--secondary-font-color);
+    text-align: center;
+}
+
+h1:hover{
+    color: var(--primary-font-color);
+}
+
+img {
+    max-width: 100%;
+}
+
+ol {
+    font-weight: bold;
+}
+
+.huge-font {
+    font-size: 34px;
+}
+
+.author {
+    text-align: center;
+}
