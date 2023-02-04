@@ -1,15 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Trade+Winds&display=swap');
+
 .content{
     max-width: 1600px;
     margin: 0 auto;
 }
 
 .logo{
-    width: 80px;
+    width: 150px;
     text-align: center;
+}
+#logo_link{
+    padding-top: 5px;
 }
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -21,22 +27,34 @@ header {
 }
 header h1{
     font-size: 55px;
-    font-style:oblique;
+    font-family: 'Trade Winds', cursive;
     text-decoration:solid;
-    color: darkolivegreen;
+    color: black;
 }
 
 nav a{
     text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    padding: 35px;
 }
 nav a:hover {
     background-color:tan;
     color: crimson;
 }
 
-#hero-msg h1 , #hero-msg h4{
+.home-title{
+    margin-top: 10px;
+}
+#hero-msg h1{
     text-align: center;
-    background-color: darkolivegreen;
+    font-family: 'Trade Winds', cursive;
+    font-size: 35px;
+}
+#hero-msg h4{
+    text-align: center;
+    font-family: sans-serif;
 }
 
 .button-box{
@@ -46,6 +64,10 @@ nav a:hover {
 main{
     text-align: center;
 }
+main h2{
+    font-family: 'Trade Winds',cursive;
+    font-size: 2em;
+}
 
 #background{
     height: 725px;
@@ -54,10 +76,23 @@ main{
 
 body{
     background-color:white;
+    font-family: 'Roboto', sans serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 
 .book{
     background-color: white;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px  ;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -65,26 +100,53 @@ body{
     color:crimson
 }
 
+.river-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #d9c2a3;
+}
+main section img{
+    box-sizing: border-box;
+}
+
 .join{
     background-color:tan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover{
-    background-color:slategray;
+    background-color:tan;
     color:crimson
 }
 
 .msg{
     background-color: tan;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p{
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: tan;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
     background-color:tan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 footer a:hover{
-    background-color: slategrey;
+    background-color: tan;
     color: crimson;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
