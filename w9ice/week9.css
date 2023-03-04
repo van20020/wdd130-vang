@@ -31,6 +31,9 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color:rgb(47, 86, 159);
+    grid-gap: 10px;
+    border-style: dashed;
+    border-color: white;
 }
 .read, .views, .comments{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -41,6 +44,7 @@ footer{
     margin-right: auto;
     font-size: 30px;
     color: white;
+    
 }
 .info{
     color: white;
