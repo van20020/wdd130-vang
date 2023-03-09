@@ -7,6 +7,8 @@ header{
     grid-template-rows: 100px 50px;
     height: 100%;
     color: #0077B6;
+    background-color: rgb(40, 40, 40);
+    border-radius: 5px;
 }
 .header_nav{
     text-align: right;
@@ -14,9 +16,11 @@ header{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .header_nav a{
-    color: black;
+    color: white;
     text-decoration: none;
-    padding: 35px;
+    padding: 25px;
+    padding-top: 0%;
+    padding-bottom: 0%;
 }
 .header_nav a:hover{
     background-color: #0077B6;
@@ -26,7 +30,7 @@ header{
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: auto;
-    margin-left: auto;
+    margin-left: 225px;
     margin-bottom: auto;
     margin-right: auto;
     /* background-color: wheat; */
@@ -42,18 +46,20 @@ header{
     float: right;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
+    margin-top: 15px;
     margin-bottom: auto;
+    border-radius: 25px;
 }
+
 
 .main_nav{
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 20px;
+    padding: 15px;
     text-transform: uppercase;
-    display: inline;
+    /* display: inline; */
     border: 5px solid black;
-    z-index: 0;
+    border-radius: 5px;
 }
 .main_nav a{
     color: royalblue;
@@ -73,10 +79,10 @@ header{
 .equipment{
     grid-column: 1/2;
     grid-row: 1/2;
-    width: 300px;
-    height: 300px;
-    margin-top: auto;
-    margin-left: auto;
+    width: 500px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 115px;
     margin-bottom: auto;
     margin-right: auto;
 }
@@ -86,13 +92,14 @@ header{
     grid-row: 1/2;
     width: 300px;
     height: 300px;
-    margin-top: auto;
-    margin-left: auto;
+    margin-top: 100px;
+    margin-left: 225px;
     margin-bottom: auto;
     margin-right: auto;
 }
 
 .equip, .doc{
+    margin-top: -100px;
     font-size: 25px;
     font-weight: bold;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -110,12 +117,16 @@ header{
 .equippara{
     grid-row: 2/3;
     grid-column: 1/2;
-    margin-top: 100px;
+    margin-top: -50px;
+    margin-left: 215px;
     text-align: center;
+    width: 300px;
 }
 .docpara{
     grid-row: 2/3;
     grid-column: 2/3;
-    margin-top: 100px;
+    margin-top: -50px;
+    margin-left: 215px;
     text-align: center;
+    width: 300px;
 }
