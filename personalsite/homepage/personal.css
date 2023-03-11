@@ -130,3 +130,17 @@ header{
     text-align: center;
     width: 300px;
 }
+
+footer{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: #3897ca;
+    color:black;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* box-shadow: 5px 5px 10px black; */
+    border-bottom: 40px solid rgb(40, 40, 40);
+    border-radius: 10px;
+}
