@@ -127,12 +127,12 @@ header{
 .equip{
     grid-column: 1/2;
     grid-row: 2/3;
-    text-align: center;
+    margin-left: 320px;
 }
 .doc{
     grid-column: 2/3;
     grid-row: 2/3;
-    text-align: center;
+    margin-left: 280px;
 }
 
 .equippara, .docpara{
@@ -142,7 +142,7 @@ header{
     grid-row: 2/3;
     grid-column: 1/2;
     margin-top: 30px;
-    margin-left: 225px;
+    margin-left: 235px;
     text-align: center;
     width: 300px;
 }
@@ -150,7 +150,7 @@ header{
     grid-row: 2/3;
     grid-column: 2/3;
     margin-top: 30px;
-    margin-left: 225px;
+    margin-left: 235px;
     text-align: center;
     width: 300px;
 }
