@@ -18,24 +18,91 @@
     </nav>
 </header>
 <body>
+<div class="content">
 <h1>
     The purpose of this page is to present the different type of equipment in a Standard Classroom Setup.
     For information about how this equipment is wired, consult the Documentation page here.
 </h1>
-    <img src="/personalsite/siteplan/images/dmps 150.jfif" alt="dmps150">
-        <p></p>
-    <img src="/personalsite/siteplan/images/dmps 300.jfif" alt="dmps300">
-        <p>Paragraph about DMPS 300</p>
-    <img src="/personalsite/siteplan/images/Labgruppen Front.png" >
-        <p>Paragraph about AMP</p>
-    <img src="/personalsite/siteplan/images/Cat6 wire.png" alt="cat6 wire">
-        <p>Paragraph about Network Wires</p>
-    <img src="/personalsite/siteplan/images/speaker wire.jpg" alt="speaker wire">
-        <p>Paragrpah about speaker wires</p>
-    <img src="/personalsite/siteplan/images/HDMI wires.png">
-        <p>Paragraph about HDMI</p>
-    <img src="/personalsite/siteplan/images/Displayport wires.png">
-        <p>Paragraph about DisplayPort</p>
+    <img class="dmps150" src="/personalsite/siteplan/images/dmps 150.jfif" alt="dmps150">
+        <p class="dmps150_para">
+            DMPS-150 <br>
+            The DMPS-150 series is the most commonly used DMPS used across campus. It is commonly
+            used in standard rooms.
+        </p>
+    <img class="dmps300" src="/personalsite/siteplan/images/dmps 300.jfif" alt="dmps300">
+        <p class="dmps300_para">
+            DMPS-300 <br>
+            The DMPS-300 series is commonly used in non-standard rooms that require extra connections
+            for the room to function. 
+        </p>
+    <img class="amp" src="/personalsite/siteplan/images/Labgruppen Front.png" >
+        <p class="amp_para">
+            Labgruppen Amplifier <br>
+            The Labgruppen Amplifier is the most common used amplifier on campus and is used to 
+            control sound. 
+        </p>
+
+</div>
+
+<h2>WIRES AND CABLES</h2>
+
+<button class="accordion">Network</button>
+    <div class="panel">
+        <img src="/personalsite/siteplan/images/Cat6 wire.png" alt="cat6 wire">
+            <p class="accord_para">
+            Network Wires are used for devices to recieve IP addresses or power. They are also
+            commonly referred to as "DM Lines" and "LAN cables" depending on the function of 
+            the cable. 
+            </p>
+    </div>
+        
+<button class="accordion">Speaker</button>
+    <div class="panel">
+        <img src="/personalsite/siteplan/images/speaker wire.jpg" alt="speaker wire">
+            <p>Speaker Wire</p>
+            <p>
+                Speaker Wires are commonly used to connect the amplifier to the DMPS. They allow
+                the DMPS to control the sound in a room.
+            </p>
+    </div>
+        
+<button class="accordion">HDMI</button>
+    <div class="panel">
+        <img src="/personalsite/siteplan/images/HDMI wires.png" alt="hdmi">
+            <p>HDMI Cords</p>
+            <p>
+                HDMI Cords are used to connect devices to each other and provide image in some cases.
+                They also are able to transmit both audio and video and are one of the most common 
+                cables.
+            </p>
+    </div>
+
+<button class="accordion">DisplayPort</button>
+    <div class="panel">
+        <img src="/personalsite/siteplan/images/Displayport wires.png" alt="displayport">
+            <p>DisplayPort Cords</p>
+            <p>
+            DisplayPort Cords are very similar to HDMIs. They share a common function,
+            but are used in cases where HDMI ports are not available.
+            </p>
+    </div>
+        
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
 
 </body>     
 <footer class="footer-links">

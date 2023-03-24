@@ -51,6 +51,91 @@ header{
     border-radius: 25px;
 }
 
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 1fr 1fr;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-row: 1;
+    grid-column: 1/3;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.dmps150, .dmps300, .amp{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 15px solid black;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.dmps150{
+    grid-row: 2;
+}
+
+.dmps300{
+    grid-row: 3;
+}
+
+.amp{
+    grid-row: 4;
+}
+
+.dmps150_para, .dmps300_para, .amp_para{
+    font-size: 20px;
+    margin-left: -60px;
+    margin-right: 300px;
+    margin-top: 115px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px solid black;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+   
+.accord_para{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
 
 
