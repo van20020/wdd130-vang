@@ -65,36 +65,50 @@ h1{
     padding-right: 200px;
 }
 
+.content{
+    background-color: rgb(232, 227, 227);
+    border-radius: 10px;
+}
+
 .dmps150, .dmps300, .amp{
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    border: 15px solid black;
-    border-radius: 10px;
-    padding: 25px;
 }
 
 .dmps150{
     grid-row: 2;
+    height: 200px;
+    border: 10px solid rgb(40, 40, 40);
+    border-radius: 10px;
 }
 
 .dmps300{
     grid-row: 3;
+    height: 185px;
+    border: 10px solid rgb(40, 40, 40);
+    border-radius: 10px;
 }
 
 .amp{
     grid-row: 4;
+    border: 10px solid rgb(40, 40, 40);
+    padding: 25px;
+    border-radius: 10px;
 }
 
 .dmps150_para, .dmps300_para, .amp_para{
     font-size: 20px;
     margin-left: -60px;
     margin-right: 300px;
-    margin-top: 60px;
+    margin-top: 20px;
     padding: 15px;
+    padding-top: 70px;
+    text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 5px solid black;
+    border: 5px solid rgb(40, 40, 40);
+    border-radius: 10px;
 }
 
 h2{
@@ -135,10 +149,8 @@ h2{
    
 .accord_para{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 1000px;
 }
-
-
-
 
 footer{
     display: grid;
