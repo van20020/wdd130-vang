@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/contactus.css">
+</head>
+<body>
+    <div id="content">
+      <header>
+        <div class="title">
+            BYU Idaho | Classroom Technology
+        </div>
+            <img class="logo" src="images/New-Classroom_Technology-logo.png" alt="logo">
+        <nav class="header_nav">
+            <a href="personal-site.html">Home</a>
+            <a href="personal-site-troubleshooting.html">Troubleshooting</a>
+            <a href="chris-homepage.html">Classroom Tech</a>
+            <a href="personal-site-techs.html">Technicians</a>
+
+        </nav>
+    </header>
+    <main>
+        <div id="feedback"></div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+              <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" />
+              </li>
+              <li>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+              <li class="button">
+                <button type="submit">Send your message</button>
+              </li>
+            </ul>
+          </form>
+    </main>
+      <footer class="footer-links">
+        <p>Classroom Tech &copy; 2023 - Tyler Allred and Christopher Vang</p>
+        <p><a href="personal-siteplan.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+        </div>
+        <div class="footer-color"></div>
+       </footer>
+      </div>
+        <script>
+            // get the feedback div element so we can do something with it.
+            const feedbackElement = document.getElementById('feedback');
+            // get the form so we can read what was entered in it.
+            const formElement = document.forms[0];
+            // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+            formElement.addEventListener('submit', function(e) {
+                // stop the form from doing the default action.
+                e.preventDefault();
+                // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+                feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+                // make the feedback element visible.
+                feedbackElement.style.display = "block";
+                // add a class to move everything down so our message doesn't cover it.
+                document.body.classList.toggle('moveDown');
+            });
+        </script>
+    </body>
+</html>
